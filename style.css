@@ -7,7 +7,7 @@ html, body {
       height: 100%;
       font-family: "Roboto Mono" !important;
       background: #0f0f0f !important;
-      color: #ffa76c !important;
+      color: #8c00ff !important;
 }
 
 .whitespace {
@@ -33,6 +33,17 @@ html, body {
       transform: translateY(-50%);
 }
 
+.line2 {
+      width: 100em;
+      top: 50%;
+      margin: auto;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      color: grey !important;
+      transform: translateY(-50%);
+}
+
 .anim-typewriter {
       animation: typewriter 4s steps(40) 1s 1 normal both,
       blinkTextCussor 500ms steps(40) infinite normal;
@@ -43,7 +54,7 @@ html, body {
             width: 0;
       }
       to {
-            width: 18em;
+            width: 15.5em;
       }
 }
 
@@ -85,7 +96,7 @@ nav #brand {
 }
 
 nav #brand a {
-      color: #ffa76c;
+      color: #8c00ff;
       transition: all 0.3s ease-out;
 }
 
@@ -114,7 +125,7 @@ nav #menu li span {
 }
 
 nav #menu li a {
-      color: #ffa76c;
+      color:#8c00ff;
 }
 
 nav #menu li a:hover {
@@ -184,7 +195,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-      color: #ffa76c;
+      color:#8c00ff;
 }
 
 #resize #menu li a:hover {
@@ -262,8 +273,8 @@ nav #menu li a:hover {
       text-shadow: 0;
       width: 13px;
       height: 13px;
-      border-bottom: 2px solid #ffa76c;
-      border-right: 2px solid #ffa76c;
+      border-bottom: 2px solid#8c00ff;
+      border-right: 2px solid#8c00ff;
       -webkit-transform: translate(-50%, 0) rotate(45deg);
       animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
@@ -289,7 +300,7 @@ h6 {
 
 .vertical {
       margin-top: 40px;
-      border-left: 1px solid #ffa76c;
+      border-left: 1px solid#8c00ff;
       height: 80px;
       position: absolute;
       left: 50%;
@@ -300,16 +311,16 @@ h6 {
 }
 
 .project1 {
-      background: url(img/JAFM.png) no-repeat 50% 50%;
+      background: url(img/Aforisma.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project1::after {
-      content: "Version 0.0.1";
+      content: "AFORISMA";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color: #ffa76c;
+      color:#8c00ff;
       display: block;
       top: 8%;
       left: -60%;
@@ -318,16 +329,16 @@ h6 {
 }
 
 .project2 {
-      background: url(img/JAFM.png) no-repeat 50% 50%;
+      background: url(img/Aforisma.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project2::after {
-      content: "Version 0.0.2";
+      content: "Cittadinanza digitale";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color: #ffa76c;
+      color:#8c00ff;
       display: block;
       top: 80%;
       left: 90%;
@@ -336,37 +347,19 @@ h6 {
 }
 
 .project3 {
-      background: url(img/JAFM.png) no-repeat 50% 50%;
+      background: url(img/Aforisma.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project3::after {
-      content: "Version 0.0.3";
+      content: "Porta narrativa";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color: #ffa76c;
+      color:#8c00ff;
       display: block;
       top: 80%;
       left: -50%;
-      right: 0;
-      bottom: 0;
-}
-
-.project4 {
-      background: url(img/JAFM.png) no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project4::after {
-      content: "Version 0.0.4";
-      font-family: "Roboto Mono";
-      font-size: 36px;
-      position: relative;
-      color: #ffa76c;
-      display: block;
-      top: 10%;
-      left: 90%;
       right: 0;
       bottom: 0;
 }
@@ -413,7 +406,7 @@ h6 {
 
 .info li {
       font-weight: lighter;
-      color: #ffa76c;
+      color:#8c00ff;
       font-size: 18px;
       padding-left: 20px;
 }
