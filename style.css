@@ -7,7 +7,7 @@ html, body {
       height: 100%;
       font-family: "Roboto Mono" !important;
       background: #0f0f0f !important;
-      color: #8c00ff !important;
+      color: #00d0ff !important;
 }
 
 .whitespace {
@@ -26,6 +26,7 @@ html, body {
       width: 24em;
       top: 50%;
       margin: auto;
+      font-size: 69px;
       border-right: 2px solid rgba(255, 255, 255, 0.75);
       text-align: center;
       white-space: nowrap;
@@ -45,7 +46,7 @@ html, body {
 }
 
 .anim-typewriter {
-      animation: typewriter 4s steps(40) 1s 1 normal both,
+      animation: typewriter 1s steps(14) 1s 1 normal both,
       blinkTextCussor 500ms steps(40) infinite normal;
 }
 
@@ -54,7 +55,7 @@ html, body {
             width: 0;
       }
       to {
-            width: 15.5em;
+            width: 4.5em;
       }
 }
 
@@ -96,7 +97,7 @@ nav #brand {
 }
 
 nav #brand a {
-      color: #8c00ff;
+      color: #00d0ff;
       transition: all 0.3s ease-out;
 }
 
@@ -125,7 +126,7 @@ nav #menu li span {
 }
 
 nav #menu li a {
-      color:#8c00ff;
+      color:#00d0ff;
 }
 
 nav #menu li a:hover {
@@ -195,7 +196,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-      color:#8c00ff;
+      color:#00d0ff;
 }
 
 #resize #menu li a:hover {
@@ -273,8 +274,8 @@ nav #menu li a:hover {
       text-shadow: 0;
       width: 13px;
       height: 13px;
-      border-bottom: 2px solid#8c00ff;
-      border-right: 2px solid#8c00ff;
+      border-bottom: 2px solid#00d0ff;
+      border-right: 2px solid#00d0ff;
       -webkit-transform: translate(-50%, 0) rotate(45deg);
       animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
@@ -300,7 +301,7 @@ h6 {
 
 .vertical {
       margin-top: 40px;
-      border-left: 1px solid#8c00ff;
+      border-left: 1px solid#00d0ff;
       height: 80px;
       position: absolute;
       left: 50%;
@@ -311,7 +312,7 @@ h6 {
 }
 
 .project1 {
-      background: url(img/Aforisma.jpg) no-repeat 50% 50%;
+      background: url(img/ortiche.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -320,7 +321,7 @@ h6 {
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color:#8c00ff;
+      color:#00d0ff;
       display: block;
       top: 8%;
       left: -60%;
@@ -338,7 +339,7 @@ h6 {
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color:#8c00ff;
+      color:#00d0ff;
       display: block;
       top: 80%;
       left: 90%;
@@ -347,7 +348,7 @@ h6 {
 }
 
 .project3 {
-      background: url(img/Aforisma.jpg) no-repeat 50% 50%;
+      background: url(img/nibbio.png) no-repeat 50% 10%;
       background-size: cover;
 }
 
@@ -356,7 +357,7 @@ h6 {
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color:#8c00ff;
+      color:#00d0ff;
       display: block;
       top: 80%;
       left: -50%;
@@ -406,52 +407,9 @@ h6 {
 
 .info li {
       font-weight: lighter;
-      color:#8c00ff;
+      color:#00d0ff;
       font-size: 18px;
       padding-left: 20px;
-}
-
-#fb::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #3b5998;
-}
-
-
-#ig::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #fcaf45;
-}
-
-
-#tw::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #55acee;
-}
-
-
-#yt::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #c4302b;
 }
 
 #media, #address {
@@ -508,8 +466,20 @@ h6 {
       margin-top: 120px;
 }
 
-.image {
-      background: url(img/bg.jpg) no-repeat 50% 70%;
+.image1 {
+      background: url(img/ortiche.jpg) no-repeat 50% 70%;
+}
+
+.image2 {
+      background: url(img/Aforisma.jpg) no-repeat 50% 70%;
+}
+
+.image3 {
+      background: url(img/cavallobello.png) no-repeat 40% 40%;
+}
+
+.image3-2 {
+      background: url(img/nibbio.png) no-repeat 50% 70%;
 }
 
 /*--------------- contact form --------------- */
