@@ -1,6 +1,6 @@
-
 /*--------------- basic styling --------------- */
-html, body {
+html,
+body {
       margin: 0;
       padding: 0;
       width: 100%;
@@ -47,13 +47,14 @@ html, body {
 
 .anim-typewriter {
       animation: typewriter 1s steps(14) 1s 1 normal both,
-      blinkTextCussor 500ms steps(40) infinite normal;
+            blinkTextCussor 500ms steps(40) infinite normal;
 }
 
 @keyframes typewriter {
       from {
             width: 0;
       }
+
       to {
             width: 4.5em;
       }
@@ -64,6 +65,7 @@ html, body {
             from {
                   width: 0;
             }
+
             to {
                   width: 17em;
             }
@@ -74,6 +76,7 @@ html, body {
       from {
             border-right-color: rgba(255, 255, 255, 0.75);
       }
+
       to {
             border-right-color: transparent;
       }
@@ -126,7 +129,7 @@ nav #menu li span {
 }
 
 nav #menu li a {
-      color:#00d0ff;
+      color: #00d0ff;
 }
 
 nav #menu li a:hover {
@@ -196,7 +199,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-      color:#00d0ff;
+      color: #00d0ff;
 }
 
 #resize #menu li a:hover {
@@ -285,9 +288,11 @@ nav #menu li a:hover {
             transform: translate(0, -20px) rotate(45deg);
             opacity: 0;
       }
+
       50% {
             opacity: 1;
       }
+
       100% {
             transform: translate(0, 20px) rotate(45deg);
             opacity: 0;
@@ -321,7 +326,7 @@ h6 {
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color:#00d0ff;
+      color: #00d0ff;
       display: block;
       top: 8%;
       left: -60%;
@@ -330,7 +335,7 @@ h6 {
 }
 
 .project2 {
-      background: url(img/Aforisma.jpg) no-repeat 50% 50%;
+      background: url(img/invidia.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -339,7 +344,7 @@ h6 {
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color:#00d0ff;
+      color: #00d0ff;
       display: block;
       top: 80%;
       left: 90%;
@@ -357,7 +362,7 @@ h6 {
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
-      color:#00d0ff;
+      color: #00d0ff;
       display: block;
       top: 80%;
       left: -50%;
@@ -375,7 +380,10 @@ h6 {
             display: none;
       }
 
-      .project1::after, .project2::after, .project3::after, .project4::after {
+      .project1::after,
+      .project2::after,
+      .project3::after,
+      .project4::after {
             display: none;
       }
 }
@@ -407,12 +415,13 @@ h6 {
 
 .info li {
       font-weight: lighter;
-      color:#00d0ff;
+      color: #00d0ff;
       font-size: 18px;
       padding-left: 20px;
 }
 
-#media, #address {
+#media,
+#address {
       text-align: right;
 }
 
@@ -425,7 +434,11 @@ h6 {
 }
 
 @media(max-width: 768px) {
-      .collab, #personal, #media, #address {
+
+      .collab,
+      #personal,
+      #media,
+      #address {
             text-align: center;
       }
 
@@ -471,7 +484,7 @@ h6 {
 }
 
 .image2 {
-      background: url(img/Aforisma.jpg) no-repeat 50% 70%;
+      background: url(img/invidia.jpg) no-repeat 50% 70%;
 }
 
 .image3 {
@@ -508,7 +521,8 @@ h6 {
 
 /*--------------- project page --------------- */
 
-.prev, .next p {
+.prev,
+.next p {
       color: grey;
 }
 
